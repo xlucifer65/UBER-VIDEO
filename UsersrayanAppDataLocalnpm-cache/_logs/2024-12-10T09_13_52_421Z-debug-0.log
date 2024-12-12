@@ -1,0 +1,59 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\rayan\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.0
+2 info using node@v20.18.0
+3 silly config load:file:C:\Users\rayan\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\rayan\Desktop\UBER-VIDEO\.npmrc
+5 silly config load:file:C:\Users\rayan\.npmrc
+6 silly config load:file:C:\Users\rayan\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm i dotenv cors
+8 verbose argv "i" "dotenv" "cors"
+9 verbose logfile logs-max:10 dir:C:\Users\rayan\Desktop\UBER-VIDEO\UsersrayanAppDataLocalnpm-cache\_logs\2024-12-10T09_13_52_421Z-
+10 verbose logfile C:\Users\rayan\Desktop\UBER-VIDEO\UsersrayanAppDataLocalnpm-cache\_logs\2024-12-10T09_13_52_421Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest dotenv@*
+15 silly packumentCache full:https://registry.npmjs.org/dotenv cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/dotenv 700ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/dotenv set size:undefined disposed:false
+18 silly fetch manifest cors@*
+19 silly packumentCache full:https://registry.npmjs.org/cors cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/cors 135ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/cors set size:undefined disposed:false
+22 silly placeDep ROOT cors@2.8.5 OK for:  want: *
+23 silly placeDep ROOT dotenv@16.4.7 OK for:  want: *
+24 silly fetch manifest vary@^1
+25 silly packumentCache full:https://registry.npmjs.org/vary cache-miss
+26 silly fetch manifest object-assign@^4
+27 silly packumentCache full:https://registry.npmjs.org/object-assign cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/vary 371ms (cache miss)
+29 silly packumentCache full:https://registry.npmjs.org/vary set size:undefined disposed:false
+30 http fetch GET 200 https://registry.npmjs.org/npm 1818ms
+31 http fetch GET 200 https://registry.npmjs.org/object-assign 937ms (cache miss)
+32 silly packumentCache full:https://registry.npmjs.org/object-assign set size:undefined disposed:false
+33 silly placeDep ROOT object-assign@4.1.1 OK for: cors@2.8.5 want: ^4
+34 silly placeDep ROOT vary@1.1.2 OK for: cors@2.8.5 want: ^1
+35 silly reify moves {}
+36 silly tarball no local data for object-assign@https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz. Extracting by manifest.
+37 silly tarball no local data for vary@https://registry.npmjs.org/vary/-/vary-1.1.2.tgz. Extracting by manifest.
+38 silly tarball no local data for dotenv@https://registry.npmjs.org/dotenv/-/dotenv-16.4.7.tgz. Extracting by manifest.
+39 silly tarball no local data for cors@https://registry.npmjs.org/cors/-/cors-2.8.5.tgz. Extracting by manifest.
+40 http fetch GET 200 https://registry.npmjs.org/vary/-/vary-1.1.2.tgz 540ms (cache miss)
+41 http fetch GET 200 https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz 543ms (cache miss)
+42 http fetch GET 200 https://registry.npmjs.org/dotenv/-/dotenv-16.4.7.tgz 567ms (cache miss)
+43 http fetch GET 200 https://registry.npmjs.org/cors/-/cors-2.8.5.tgz 1252ms (cache miss)
+44 silly ADD node_modules/vary
+45 silly ADD node_modules/object-assign
+46 silly ADD node_modules/dotenv
+47 silly ADD node_modules/cors
+48 verbose cwd C:\Users\rayan\Desktop\UBER-VIDEO
+49 verbose os Windows_NT 10.0.22631
+50 verbose node v20.18.0
+51 verbose npm  v10.9.0
+52 notice
+52 notice New [36mpatch[39m version of npm available! [36m10.9.0[39m -> [34m10.9.2[39m
+52 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v10.9.2[39m
+52 notice To update run: [4mnpm install -g npm@10.9.2[24m
+52 notice  { force: true, [Symbol(proc-log.meta)]: true }
+53 verbose exit 0
+54 info ok
